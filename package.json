@@ -6,19 +6,21 @@
   "license": "MIT",
   "repository": "http://github.com/braziljs/add2weekly",
   "keywords": [
-      "demos",
-      "talks",
-      "news",
-      "mailling",
-      "weekly",
-      "javascript",
-      "braziljs"
+    "demos",
+    "talks",
+    "news",
+    "mailling",
+    "weekly",
+    "javascript",
+    "braziljs"
   ],
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-contrib-uglify": "~0.2.2",
     "grunt-contrib-watch": "*"
   },
-  "dependencies": {
+  "dependencies": {},
+  "scripts": {
+    "preinstall": "node preinstall.js"
   }
 }
